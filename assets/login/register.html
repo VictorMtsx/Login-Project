@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Bem Vindo</title>
+
+    <script src="/assets/script.js"></script>
+    <link rel="stylesheet" href="/assets/style.css">]
+
+
+</head>
+
+<body>
+    <div>
+        <video autoplay muted loop id="myVideo">
+            <source src="/assets/videos/background-video-snowCar.mp4" type="">
+        </video>
+    </div>
+
+    <div class="form">
+        <main>
+            <div class="container">
+                <form id="form" class="form">
+                    <h1>Registre-se</h1>
+                    <label for="name"><img src="/assets/imgs/name-icon.svg" alt="icon">
+                        <input type="text" placeholder="Informe seu nome de usuário" name="Name" id="name">
+                    </label>
+                    <label for="idade"><img id="smile" src="/assets/imgs/smile-icon.svg" alt="icon">
+                        <input type="text" placeholder="Informe sua Idade" name="idade" id="age"
+                        onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+                    </label>
+                    <label for="Email"> <img src="/assets/imgs/emial-icon.svg" alt="icon">
+                        <input placeholder="Digite seu email" type="email" name="Email" id="email">
+                    </label>
+                    <label for="senha"><img src="/assets/imgs/padlokOpen-icon.svg" alt="icon">
+                        <input type="password" placeholder="Digite sua senha" name="senha" id="password">
+                    </label>
+                    <label for="senha-2"><img src="/assets/imgs/padlokBlock-icon.svg" alt="icon">
+                        <input type="password" placeholder="Confirme sua senha" name="senha" id="password-confirm">
+                    </label>
+                    
+                    <button class="btn-entrar" type="submit">Entrar</button>
+
+                    <p>Ja possui uma conta? <button class="btn-acessar"><a href="/assets/login/login.html">Acesse aqui</a></button></p>
+                </form>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
